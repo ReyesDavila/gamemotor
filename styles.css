@@ -1,0 +1,21 @@
+body{
+    background: black;
+    border: 1px solid red;
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    left: 2.5vw;
+    top: 2.5vh;
+    margin: 0px;
+    color:white;
+}
+
+canvas{
+   image-rendering: pixelated;
+   -webkit-interpolation-mode: nearest-neighbor;
+   background-color: gray;
+   border: 1px solid white;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
